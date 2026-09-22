@@ -1,0 +1,64 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Posts on BroDyy666</title>
+        <link>http://localhost:1313/posts/</link>
+        <description>Recent content in Posts on BroDyy666</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
+        <lastBuildDate>Tue, 22 Sep 2026 12:11:01 +0700</lastBuildDate>
+        <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>For Looping Sederhana Python</title>
+            <link>http://localhost:1313/posts/for-looping-sederhana-python/</link>
+            <pubDate>Tue, 22 Sep 2026 12:11:01 +0700</pubDate>
+            
+            <guid>http://localhost:1313/posts/for-looping-sederhana-python/</guid>
+            <description>&lt;p&gt;Halo, &lt;em&gt;coder&lt;/em&gt;! Kali ini kita bahas trik cepat bikin kode Python lebih bersih dan rapi pakai &lt;em&gt;List Comprehension&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Biasanya, kalau kita mau bikin list angka kuadrat dari 1 sampai 5, kita nulis &lt;em&gt;for loop&lt;/em&gt; kayak gini:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;angka &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; []
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;for&lt;/span&gt; i &lt;span style=&#34;color:#f92672&#34;&gt;in&lt;/span&gt; range(&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;, &lt;span style=&#34;color:#ae81ff&#34;&gt;6&lt;/span&gt;):
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  angka&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;append(i&lt;span style=&#34;color:#f92672&#34;&gt;**&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;2&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;print(angka)  &lt;span style=&#34;color:#75715e&#34;&gt;# Output: [1, 4, 9, 16, 25]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+            <content type="html"><![CDATA[<p>Halo, <em>coder</em>! Kali ini kita bahas trik cepat bikin kode Python lebih bersih dan rapi pakai <em>List Comprehension</em>.</p>
+<p>Biasanya, kalau kita mau bikin list angka kuadrat dari 1 sampai 5, kita nulis <em>for loop</em> kayak gini:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-python" data-lang="python"><span style="display:flex;"><span>angka <span style="color:#f92672">=</span> []
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> range(<span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">6</span>):
+</span></span><span style="display:flex;"><span>  angka<span style="color:#f92672">.</span>append(i<span style="color:#f92672">**</span><span style="color:#ae81ff">2</span>)
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>print(angka)  <span style="color:#75715e"># Output: [1, 4, 9, 16, 25]</span>
+</span></span></code></pre></div>]]></content>
+        </item>
+        
+        <item>
+            <title>Halo Dunia, Blog Pertama Saya!</title>
+            <link>http://localhost:1313/posts/content/</link>
+            <pubDate>Tue, 22 Sep 2026 12:10:00 +0700</pubDate>
+            
+            <guid>http://localhost:1313/posts/content/</guid>
+            <description>&lt;p&gt;Selamat datang di blog pribadi saya! Ini adalah postingan pertama yang saya buat menggunakan &lt;strong&gt;Hugo&lt;/strong&gt; di atas sistem Fedora.&lt;/p&gt;
+&lt;h2 id=&#34;kenapa-bikin-blog-ini&#34;&gt;Kenapa Bikin Blog Ini?&lt;/h2&gt;
+&lt;p&gt;Situs ini sengaja dibuat sebagai:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Tempat mencatat hasil belajar &lt;em&gt;coding&lt;/em&gt; (Python, PyQt, Web Scraping).&lt;/li&gt;
+&lt;li&gt;Dokumentasi portofolio project GitHub.&lt;/li&gt;
+&lt;li&gt;Ruang kosong buat nulis apa aja yang lagi dipelajari.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Stay tuned untuk catatan-catatan teknis berikutnya ya! 🚀&lt;/p&gt;</description>
+            <content type="html"><![CDATA[<p>Selamat datang di blog pribadi saya! Ini adalah postingan pertama yang saya buat menggunakan <strong>Hugo</strong> di atas sistem Fedora.</p>
+<h2 id="kenapa-bikin-blog-ini">Kenapa Bikin Blog Ini?</h2>
+<p>Situs ini sengaja dibuat sebagai:</p>
+<ul>
+<li>Tempat mencatat hasil belajar <em>coding</em> (Python, PyQt, Web Scraping).</li>
+<li>Dokumentasi portofolio project GitHub.</li>
+<li>Ruang kosong buat nulis apa aja yang lagi dipelajari.</li>
+</ul>
+<p>Stay tuned untuk catatan-catatan teknis berikutnya ya! 🚀</p>
+]]></content>
+        </item>
+        
+    </channel>
+</rss>
