@@ -1,6 +1,6 @@
 #######################
 #baseurl      = "localhost"
-baseURL = 'https://example.org/'
+baseURL = 'https://aftercoma.github.io/my-blog-md/'
 title        = "My Blog"
 languageCode = "en-us"
 theme        = "hello-friend-NG"
