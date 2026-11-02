@@ -43,6 +43,10 @@ theme        = "rewired"
     name = "GitHub"
     url = "https://github.com/aftercoma"
     icon = "fa-brands fa-github"
+  [[params.social]]
+    name = "Discord"
+    url = "https://discord.com/users/1444061283845669045"
+    icon = "fa-brands fa-discord"
   
 
 
