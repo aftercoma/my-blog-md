@@ -46,11 +46,6 @@ pagination.pagerSize     = 10
       logoText = "BroDy"
       logoHomeLink = "/"
     # or
-    #
-<<<<<<< HEAD
-    path = "/"
-=======
->>>>>>> 9a09056 (Artikel baru)
     alt = "Welcome to my blog!"
 
   # And you can even create generic menu
