@@ -1,3 +1,9 @@
 [submodule "themes/hello-friend-NG"]
 	path = themes/hello-friend-NG
 	url = https://github.com/rhazdon/hugo-theme-hello-friend-ng
+[submodule "digio-theme"]
+	path = digio-theme
+	url = https://github.com/danapixels/digio-theme
+[submodule "themes/rewired"]
+	path = themes/rewired
+	url = https://github.com/RigleGit/rewired.git

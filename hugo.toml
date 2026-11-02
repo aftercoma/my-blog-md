@@ -1,69 +1,48 @@
 #######################
 #baseurl      = "localhost"
 baseURL = 'https://aftercoma.github.io/my-blog-md/'
-title        = "My Blog"
-languageCode = "en-us"
-theme        = "hello-friend-NG"
-pagination.pagerSize     = 10
-[params]
-  dateform        = "Jan 2, 2006"
-  dateformShort   = "Jan 2"
-  dateformNum     = "2006-01-02"
-  dateformNumTime = "2006-01-02 15:04"
+title        = "archive aftercoma"
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = false
+theme        = "rewired"
 
-  # Subtitle for home
-  homeSubtitle = "A simple and beautiful blog"
+  [taxonomies]
+    tag = "tags"
+    category = "categories"
+  [params]
+    blogPageSize = 5
+    title = "Archive site"
 
-  # Set disableReadOtherPosts to true in order to hide the links to other posts.
-  disableReadOtherPosts = false
+    author = "aftercoma/agungxpp"
+    descriptionLines  = ["Python dev, Web Scraping enthusiast, & Linux user.",
+    "Hacking, Networking All about IT"]
+    tagLine = "about"
+  [params.toc]
+    enabled = true
+    ordered = true
+    startLevel = 1
+    endLeved = 3
 
-  # Enable sharing buttons, if you like
-  enableSharingButtons = true
+  [params.footer]
+    text = "made with <3 [HUGO](https://gohugo.io/)"
+    prompt = "aftercoma@agungxpp:~$"
+  [[menus.main]]
+    name = "home"
+    pageRef = "/"
+    weight = 10 
+  [[menus.main]]
+    name = "blog"
+    pageRef = "/posts/"
+    weight = 20 
+  [[menus.main]]
+    name="about"
+    pageRef="/about/"
+    weight=30 
+
+  [[params.social]]
+    name = "GitHub"
+    url = "https://github.com/aftercoma"
+    icon = "fa-brands fa-github"
   
-  # Show a global language switcher in the navigation bar
-  enableGlobalLanguageMenu = true
 
-  # Metadata mostly used in document's head
-  description = "My new homepage or blog"
-  keywords = "homepage, blog"
-  images = [""]
-[taxonomies]
-    category = "blog"
-    tag      = "tags"
-    series   = "series"
 
-[languages]
-  [languages.en]
-    title = "BroDyy666"
-    keywords = ""
-    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
-    readOtherPosts = "Read other posts"
-
-  [languages.en.params]
-    subtitle  = "Python dev, Web Scraping enthusiast, & Linux user."
-
-    [languages.en.params.logo]
-      logoText = "BroDy"
-      logoHomeLink = "/"
-    # or
-    alt = "Welcome to my blog!"
-
-  # And you can even create generic menu
-  [[menu.main]]
-    identifier = "blog"
-    name       = "Blog"
-    url        = "/posts/"
-    weight = 1
-
-  # and submenus
-  [[menu.main]]
-    identifier  = "parent"
-    name        = "Parent"
-    url         = "/parent"
-    hasChildren = true
-
-  [[menu.main]]
-    identifier  = "child"
-    name        = "Child"
-    url         = "/parent/child"
-    parent      = "parent"
