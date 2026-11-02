@@ -1,20 +1,44 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Posts on BroDyy666</title>
-        <link>http://localhost:1313/posts/</link>
+        <link>http://localhost:1313/my-blog-md/posts/</link>
         <description>Recent content in Posts on BroDyy666</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright>
-        <lastBuildDate>Tue, 22 Sep 2026 12:11:01 +0700</lastBuildDate>
-        <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+        <lastBuildDate>Wed, 23 Sep 2026 19:24:36 +0700</lastBuildDate>
+        <atom:link href="http://localhost:1313/my-blog-md/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>Cara Menggunakan Obs Di Linux</title>
+            <link>http://localhost:1313/my-blog-md/posts/cara-menggunakan-obs-di-linux/</link>
+            <pubDate>Wed, 23 Sep 2026 19:24:36 +0700</pubDate>
+            
+            <guid>http://localhost:1313/my-blog-md/posts/cara-menggunakan-obs-di-linux/</guid>
+            <description>&lt;p&gt;Halo &lt;em&gt;Coders&lt;/em&gt;&lt;/p&gt;</description>
+            <content type="html"><![CDATA[<p>Halo <em>Coders</em></p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>Install Plugin Neovim</title>
+            <link>http://localhost:1313/my-blog-md/posts/install-plugin-neovim/</link>
+            <pubDate>Tue, 22 Sep 2026 21:16:43 +0700</pubDate>
+            
+            <guid>http://localhost:1313/my-blog-md/posts/install-plugin-neovim/</guid>
+            <description>&lt;p&gt;Halo,&lt;em&gt;Coders&lt;/em&gt; kembali lagi dengan Brody disinii XD.
+Saya ingin membagikan cara untuk menginstall plugin neovim agar ada thema dan autocompletenya seperti IDE modern vscode dll&lt;/p&gt;</description>
+            <content type="html"><![CDATA[<p>Halo,<em>Coders</em> kembali lagi dengan Brody disinii XD.
+Saya ingin membagikan cara untuk menginstall plugin neovim agar ada thema dan autocompletenya seperti IDE modern vscode dll</p>
+]]></content>
+        </item>
         
         <item>
             <title>For Looping Sederhana Python</title>
-            <link>http://localhost:1313/posts/for-looping-sederhana-python/</link>
+            <link>http://localhost:1313/my-blog-md/posts/for-looping-sederhana-python/</link>
             <pubDate>Tue, 22 Sep 2026 12:11:01 +0700</pubDate>
             
-            <guid>http://localhost:1313/posts/for-looping-sederhana-python/</guid>
+            <guid>http://localhost:1313/my-blog-md/posts/for-looping-sederhana-python/</guid>
             <description>&lt;p&gt;Halo, &lt;em&gt;coder&lt;/em&gt;! Kali ini kita bahas trik cepat bikin kode Python lebih bersih dan rapi pakai &lt;em&gt;List Comprehension&lt;/em&gt;.&lt;/p&gt;
 &lt;p&gt;Biasanya, kalau kita mau bikin list angka kuadrat dari 1 sampai 5, kita nulis &lt;em&gt;for loop&lt;/em&gt; kayak gini:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;angka &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; []
@@ -35,10 +59,10 @@
         
         <item>
             <title>Halo Dunia, Blog Pertama Saya!</title>
-            <link>http://localhost:1313/posts/content/</link>
+            <link>http://localhost:1313/my-blog-md/posts/content/</link>
             <pubDate>Tue, 22 Sep 2026 12:10:00 +0700</pubDate>
             
-            <guid>http://localhost:1313/posts/content/</guid>
+            <guid>http://localhost:1313/my-blog-md/posts/content/</guid>
             <description>&lt;p&gt;Selamat datang di blog pribadi saya! Ini adalah postingan pertama yang saya buat menggunakan &lt;strong&gt;Hugo&lt;/strong&gt; di atas sistem Fedora.&lt;/p&gt;
 &lt;h2 id=&#34;kenapa-bikin-blog-ini&#34;&gt;Kenapa Bikin Blog Ini?&lt;/h2&gt;
 &lt;p&gt;Situs ini sengaja dibuat sebagai:&lt;/p&gt;
