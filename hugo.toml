@@ -48,7 +48,7 @@ pagination.pagerSize     = 10
       logoHomeLink = "/"
     # or
     #
-    path = "/home/agungxpp/Desktop/seringai.jpg"
+    path = "/"
     alt = "Welcome to my blog!"
 
   # And you can even create generic menu
